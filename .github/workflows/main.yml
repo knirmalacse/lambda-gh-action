@@ -3,7 +3,7 @@ name : Deploy
 on:
   push:
     branches:
-    -master
+    - master
 
 jobs:
   deploy_lambda:
@@ -15,7 +15,7 @@ jobs:
         node-version: '12'
     -name: npm install
     env: 
-      CI: true
+      CI:true
     run: |
       npm ci
 
