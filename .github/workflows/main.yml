@@ -19,3 +19,9 @@ jobs:
     run: |
       npm ci
 
+-name : deploy
+run : |
+#build /w ncc
+#zip
+#aws cli - deploy code
+
